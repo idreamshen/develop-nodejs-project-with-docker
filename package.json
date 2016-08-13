@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/idreamshen/develop-nodejs-project-with-docker/issues"
   },
-  "homepage": "https://github.com/idreamshen/develop-nodejs-project-with-docker#readme"
+  "homepage": "https://github.com/idreamshen/develop-nodejs-project-with-docker#readme",
+  "dependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-register": "^6.11.6",
+    "koa": "^2.0.0-alpha.5"
+  }
 }
