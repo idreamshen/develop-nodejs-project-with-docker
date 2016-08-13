@@ -2,7 +2,7 @@
   "name": "develop-nodejs-project-with-docker",
   "version": "1.0.0",
   "description": "An example show you how to develop nodes project with docker",
-  "main": "index.js",
+  "main": "bootstrap.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
