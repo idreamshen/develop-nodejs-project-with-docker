@@ -1,0 +1,19 @@
+{
+  "name": "develop-nodejs-project-with-docker",
+  "version": "1.0.0",
+  "description": "An example show you how to develop nodes project with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idreamshen/develop-nodejs-project-with-docker.git"
+  },
+  "author": "idreamshen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idreamshen/develop-nodejs-project-with-docker/issues"
+  },
+  "homepage": "https://github.com/idreamshen/develop-nodejs-project-with-docker#readme"
+}
