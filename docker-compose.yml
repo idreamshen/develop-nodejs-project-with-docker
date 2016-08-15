@@ -1,0 +1,11 @@
+version: '2'
+services:
+  web:
+    container_name: web
+    image: node
+    working_dir: /opt/app
+    command: npm start
+    volumes:
+      - .:/opt/app
+    ports:
+      - 3000:3000
