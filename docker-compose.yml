@@ -9,6 +9,10 @@ services:
       - .:/opt/app
     ports:
       - 3000:3000
+    depends_on:
+      - redis
+      - mongodb
+      - mysql
   redis:
     container_name: redis
     image: redis
