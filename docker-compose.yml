@@ -9,3 +9,15 @@ services:
       - .:/opt/app
     ports:
       - 3000:3000
+  redis:
+    container_name: redis
+    image: redis
+  mongodb:
+    container_name: mongo
+    image: mongo
+  mysql:
+    container_name: mysql
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: s3cr3t
+
