@@ -4,7 +4,8 @@
   "description": "An example show you how to develop nodes project with docker",
   "main": "bootstrap.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install&&node bootstrap.js"
   },
   "repository": {
     "type": "git",
